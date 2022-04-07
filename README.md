@@ -8,7 +8,7 @@
 - [ ] Completar o site
 
 #
-![Auebas](https://i.imgur.com/PKgx2ux.png)
+![Auebas](https://i.imgur.com/dX7uNc5.png)
 
 ### 🛠 Tecnologias
 
