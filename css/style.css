@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     border: 0;
@@ -19,7 +20,7 @@ html, body {
     max-width: 1200px;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 250px 5fr;
     background-color: #FFF8EE;
@@ -43,10 +44,10 @@ main {
     text-align: center;
 }
 
-main > div {
+main>div {
     padding: 50px;
 }
-    
+
 
 .item-menu-apoio {
     background: #ffbc2b;
@@ -59,7 +60,7 @@ main > div {
     font-weight: 700;
 }
 
-.item-menu-apoio:hover{
+.item-menu-apoio:hover {
     background-color: rgb(255, 212, 119);
     transition-duration: 150ms;
     transform: scale(1.05);
@@ -92,12 +93,12 @@ main > div {
 }
 
 .item-menu:hover {
-    background:rgb(255, 212, 119);
+    background: rgb(255, 212, 119);
     transform: scale(1.05);
     transition-duration: 150ms;
 }
 
-footer{
+footer {
     background-color: #fffffb;
 }
 
@@ -119,3 +120,38 @@ footer{
     font-weight: 700;
     display: inline;
 }
+
+i {
+    font-style: normal;
+    font-size: 24pt;
+}
+
+.facebook {
+    color: #3366cc;
+}
+
+.instagram {
+    color: #993399;
+}
+
+.twitter {
+    color: #33ccff;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 5fr 250px;
+    background-color: #FFF8EE;
+    /* grid-template-rows: ; */
+    gap: 10px;
+}
+
+.span-column {
+    grid-column: 1 / span 2;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
