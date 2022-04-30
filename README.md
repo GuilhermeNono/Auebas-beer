@@ -5,7 +5,7 @@
 
 ### ✪ Objetivos primarios
 
-- [ ] Completar o site
+- [x] Completar o site
 
 #
 ![Auebas](https://i.imgur.com/dX7uNc5.png)
