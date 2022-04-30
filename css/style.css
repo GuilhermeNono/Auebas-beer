@@ -100,6 +100,7 @@ main>div {
 
 footer {
     background-color: #fffffb;
+
 }
 
 .responsive {
@@ -124,6 +125,7 @@ footer {
 i {
     font-style: normal;
     font-size: 24pt;
+    margin-right: 20px;
 }
 
 .facebook {
@@ -144,6 +146,13 @@ footer {
     background-color: #FFF8EE;
     /* grid-template-rows: ; */
     gap: 10px;
+    padding: 50px;
+}
+
+.email {
+    font-size: 16pt;
+    font-weight: 700;
+    padding-bottom: 10px;
 }
 
 .span-colunas {
@@ -153,5 +162,30 @@ footer {
 .centralizado {
     text-align: center;
 }
+
+.aueba {
+    color: #686868;
+    padding-bottom: 15px;
+}
+
+.aueba-email:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.links-rodape{
+  display: inline;
+  padding: 10px;
+}
+
+.links-rodape:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+
 
 
